@@ -1,0 +1,15 @@
+GET http://localhost:3000/api/products
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name": "Iphone 11 max",
+    "price": 1111,
+    "createdAt": "2021/01/01",
+    "categoryId": 1
+}
+
+###
+DELETE  http://localhost:3000/api/products/3
